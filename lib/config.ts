@@ -21,7 +21,7 @@ export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   color: {
     grayscale: {
       hue: 0,
-      tint: 6,
+      tint: 0,
       shade: theme === "dark" ? -1 : -4,
     },
     accent: {
