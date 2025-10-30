@@ -25,12 +25,12 @@ export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
       shade: theme === "dark" ? -1 : -4,
     },
     accent: {
-      primary: theme === "dark" ? "#171717" : "#f5f5f5",
+      primary: theme === "dark" ? "#f5f5f5" : "#171717",
       level: 1,
     },
     surface: {
-      foreground: theme === "dark" ? "#101010" : "#FFFFFF",
-      background: theme === "dark" ? "#F5F5F5" : "#303030"
+      background: theme === "dark" ? "#101010" : "#FFFFFF",
+      foreground: theme === "dark" ? "#F5F5F5" : "#303030"
     }
   },
   radius: "round",
