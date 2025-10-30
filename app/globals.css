@@ -7,8 +7,8 @@
 }
 
 :root[data-color-scheme="dark"] {
-  --background: #ff0a0a;
-  --foreground: #edffed;
+  --background: #0a0a0a;
+  --foreground: #ededed;
   color-scheme: dark;
 }
 
