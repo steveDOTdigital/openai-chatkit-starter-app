@@ -4,7 +4,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Chat Agent",
-  description: "OpenAI AgentKit/ChatKit chat agent with hosted workflow and chat history.",
+  description: "OpenAI Agent/ChatKit chat agent with hosted workflow and chat history.",
 };
 
 export default function RootLayout({
