@@ -28,6 +28,10 @@ export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
       primary: theme === "dark" ? "#f1f5f9" : "#0f172a",
       level: 1,
     },
+    surface: {
+      background: '#2121FF',
+      foreground: '#303030'
+    }
   },
   radius: "round",
   // Add other theme options here
