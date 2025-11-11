@@ -37,17 +37,17 @@ export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   color: {
     surface: {
       background: theme === "dark" ? "#111111" : "#ffffff",
-      foreground: theme === "dark" ? "#f5f5f5" : "#212121",
+      foreground: theme === "dark" ? "#333333" : "#f5f5f5",
     },
     grayscale: {
       hue: 0,
       tint: 0,
-      shade: theme === "dark" ? -1 : -4,
-    } ,
+      shade: theme === "dark" ? 0 : 0,
+    } /*,
     accent: {
       primary: theme === "dark" ? "#336633" : "#CCFFCC",
       level: 1,
-    }/*,
+    } *//*,
     surface: {
       background: theme === "dark" ? "#212121" : "#f5f5f5",
       foreground: theme === "dark" ? "#303030" : "#303030"
