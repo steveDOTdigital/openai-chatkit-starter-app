@@ -15,7 +15,23 @@ export const STARTER_PROMPTS: StartScreenPrompt[] = [
 
 export const PLACEHOLDER_INPUT = "Ask anything...";
 
-export const GREETING = "How can I help you today?";
+export const getGreeting = (): string => {
+  if (typeof window === "undefined") return "How can I help you today?";
+
+  const host = window.location.hostname;
+
+  if (host.includes("stoney-cnc-chat-agent.vercel.app")) {
+    return "Welcome to Stoney CNC! What can we help you with today?";
+  }
+
+  if (host.includes("cr-plasma-chat-agent.vercel.app")) {
+    return "Welcome to CR PLASMA! What can we help you with today?";
+  }
+
+  return "How can I help you today?";
+};
+
+export const GREETING = getGreeting();
 
 export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   color: {
