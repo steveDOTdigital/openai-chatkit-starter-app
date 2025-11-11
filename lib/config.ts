@@ -39,11 +39,11 @@ export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
       background: theme === "dark" ? "#111111" : "#ffffff",
       foreground: theme === "dark" ? "#f5f5f5" : "#212121",
     },
-    /* grayscale: {
+    grayscale: {
       hue: 0,
       tint: 0,
       shade: theme === "dark" ? -1 : -4,
-    } ,*/
+    } ,
     accent: {
       primary: theme === "dark" ? "#336633" : "#CCFFCC",
       level: 1,
