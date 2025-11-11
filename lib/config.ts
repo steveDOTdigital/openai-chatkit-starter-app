@@ -35,11 +35,13 @@ export const GREETING = getGreeting();
 
 export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   color: {
-    grayscale: {
+    background: "#116611",
+    foreground: "#F5F5F5",
+    /* grayscale: {
       hue: 0,
       tint: 0,
       shade: theme === "dark" ? -1 : -4,
-    },
+    } ,*/
     accent: {
       primary: theme === "dark" ? "#f5f5f5" : "#111111",
       level: 1,
