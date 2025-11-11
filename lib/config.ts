@@ -36,8 +36,8 @@ export const GREETING = getGreeting();
 export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   color: {
     surface: {
-      background: theme === "dark" ? "#111111" : "FFFFFF",
-      foreground: theme === "dark" ? "#F5F5F5" : "212121",
+      background: theme === "dark" ? "#111111" : "ffffff",
+      foreground: theme === "dark" ? "#f5f5f5" : "212121",
     },
     /* grayscale: {
       hue: 0,
